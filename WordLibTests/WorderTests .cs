@@ -1,5 +1,6 @@
 using WordLib;
 
+
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace WordLibTests
@@ -17,7 +18,8 @@ namespace WordLibTests
             bool result = Worder.IsPalindrome(word);
 
             // Assert
-            Assert.IsTrue(result);
+            Assert.IsTrue(result, $"{word} should be a palindrome.");
         }
     }
 }
+
