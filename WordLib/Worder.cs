@@ -10,11 +10,23 @@ namespace WordLib
     {
         public static bool IsPalindrome(string word)
         {
-            // Basic implementation: compare the word with its reverse
+            // basic implementation: compare the word with its reverse
             char[] wordChars = word.ToCharArray();
             Array.Reverse(wordChars);
             string reversedWord = new string(wordChars);
             return word.Equals(reversedWord);
+        }
+        public static int CountLetters(string word)
+        {
+            int letterCount = 0;
+            foreach (char c in word)
+            {
+                if (char.IsLetter(c))
+                {
+                    letterCount++;
+                }
+            }
+            return letterCount;
         }
     }
 }
