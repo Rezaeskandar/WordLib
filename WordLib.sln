@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordLib", "WordLib\WordLib.csproj", "{BF0A6AB6-1D53-4F7E-907A-8623FB086610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordLibTests", "WordLibTests\WordLibTests.csproj", "{F22CC764-7832-4AB1-A223-6AD1D9E9E1EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF0A6AB6-1D53-4F7E-907A-8623FB086610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0A6AB6-1D53-4F7E-907A-8623FB086610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0A6AB6-1D53-4F7E-907A-8623FB086610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0A6AB6-1D53-4F7E-907A-8623FB086610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F22CC764-7832-4AB1-A223-6AD1D9E9E1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F22CC764-7832-4AB1-A223-6AD1D9E9E1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F22CC764-7832-4AB1-A223-6AD1D9E9E1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F22CC764-7832-4AB1-A223-6AD1D9E9E1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF53EE2E-29E9-4B14-AB88-07D63E663817}
+	EndGlobalSection
+EndGlobal
